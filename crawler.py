@@ -25,4 +25,4 @@ for i in img_url_list:
     with open("./picture/图片%s.jpg" % count, "wb") as file:
         file.write(img)
 
-print("A")
+aa
