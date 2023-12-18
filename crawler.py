@@ -23,4 +23,4 @@ for i in img_url_list:
     print(count)
     img = requests.get(i)
     with open("./picture/图片%s.jpg" % count, "wb") as file:
-        file.write(i)
+        file.write(img)
